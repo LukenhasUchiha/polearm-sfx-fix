@@ -1,72 +1,115 @@
 {
   "checks": [
-    "All original animation attributes preserved",
-    "All original events preserved except documented Reach hand index",
-    "Exactly nine Whoosh additions and three CastPierce markers",
-    "Chronological order, time bounds, sound IDs and hand indices verified",
-    "No damage/Cast/React timing edits"
+    "Gameplay-tested candidate animation data preserved",
+    "All original resource attributes and gameplay events preserved",
+    "Event order, sound resources and voice emitters verified"
   ],
   "resources": [
     {
       "id": "09861000-a123-f3ec-8346-4dae23405c8b",
       "name": "HUM_MS_Rig_ST_CMBT_Melee_RHand_01_Attack",
-      "events": 5,
+      "events": 6,
+      "canonical_sha256": "bcd3b694cd6614e4fd77d902e16c3b3d35f3cadb8fa405d8a3b0cdc8b00f2799",
       "status": "PASS"
     },
     {
       "id": "58494998-bf19-47bf-344b-93b718ca9c79",
       "name": "HUM_MS_Rig_DWS_CMBT_Melee_RHand_01_Attack",
-      "events": 5,
+      "events": 6,
+      "canonical_sha256": "cde2356b786a87a8df9151366a866d47e3a37dedfd7b05deee5ee78441323efc",
       "status": "PASS"
     },
     {
       "id": "7fe6e2b1-8a75-de09-0d16-384723dbe9ce",
       "name": "HUM_MS_Rig_SP_CMBT_Melee_RHand_01_Attack",
-      "events": 8,
+      "events": 9,
+      "canonical_sha256": "a64e3a575976964394d4f55d0c31de9af121c8fd8d29e923bd9eaf392b6d4d13",
       "status": "PASS"
     },
     {
       "id": "809b1ab9-7c1f-80e6-065a-a63a4b5b6cb3",
       "name": "HUM_MS_Rig_JAVSH_CMBT_Melee_RHand_01_Attack",
-      "events": 6,
+      "events": 7,
+      "canonical_sha256": "17e68df494a52e22fc45a5d08eecbe4ef2ef7853988490a778c4d3931f11ceae",
       "status": "PASS"
     },
     {
       "id": "9187d103-49e2-2f4b-b0c3-439faae326fa",
       "name": "HUM_MS_Rig_POLE_CMBT_Melee_RHand_01_Attack",
-      "events": 6,
+      "events": 7,
+      "canonical_sha256": "7cfea19daab577468dfa9a90176e0633bcf2cf03ab4cf9777c096297af40ed24",
       "status": "PASS"
     },
     {
       "id": "923c4262-b958-8999-8d4f-62980e602c0b",
       "name": "HUM_MS_Rig_JAV_CMBT_Melee_RHand_01_Attack",
-      "events": 7,
+      "events": 8,
+      "canonical_sha256": "73b8467aa34e48524b8ceffed69d3846e828b3c294f170431650cdb0e9a9d8f0",
       "status": "PASS"
     },
     {
       "id": "95db0644-c2ba-706c-4139-0f4340e0d4e8",
       "name": "HUM_MS_Rig_1HPSH_CMBT_Melee_RHand_01_Attack",
-      "events": 5,
+      "events": 6,
+      "canonical_sha256": "677dad331f9d433a799e5e17cf14edc6c8d58320885da5f7e01572525a3a96f2",
       "status": "PASS"
     },
     {
       "id": "c601085a-2ef3-c1a8-f023-4b9c09b43a15",
       "name": "HUM_MS_Rig_DWP_CMBT_Melee_LHand_01_Attack",
-      "events": 5,
+      "events": 6,
+      "canonical_sha256": "dfaf60a9c742131645c3db50782279ac03f9deb7ff8db7021898009286b8707c",
       "status": "PASS"
     },
     {
       "id": "d6f3b36d-aee0-d9b1-b116-29c3461a9a16",
       "name": "HUM_MS_Rig_DWS_CMBT_Melee_LHand_01_Attack",
-      "events": 6,
+      "events": 7,
+      "canonical_sha256": "b92bb2993452b81317230ea20f255840b00060ab1f7e175c6a25d3062bf1977f",
       "status": "PASS"
     },
     {
       "id": "4ef25707-a8c6-39d8-09d8-973141397d0e",
       "name": "HUM_MS_Rig_POLE_CMBT_Reach_RHand_01_Attack",
       "events": 4,
+      "canonical_sha256": "3460ea3582eb79976afba3c04cb5da8d46e7d676a96f72a71f51089c3df0e508",
+      "status": "PASS"
+    },
+    {
+      "id": "12611245-e158-1abb-b382-91e825e82285",
+      "name": "HUM_MS_Rig_JAVSH_CMBT_Range_RHand_01_Attack",
+      "events": 5,
+      "canonical_sha256": "cdd03ceaa8454caee7d048859858e5e75cd590863e1f9dc6810f7f5189faec42",
+      "status": "PASS"
+    },
+    {
+      "id": "35c30365-3c16-dc5e-ad76-386c3899a32e",
+      "name": "HUM_MS_Rig_DFLT_CMBT_Skill_Shove_01_Attack",
+      "events": 6,
+      "canonical_sha256": "cd784dcfd2ad6ff192698caedddb4f643e369a3500dc03f0279b6c813bcde99f",
+      "status": "PASS"
+    },
+    {
+      "id": "36372476-b299-d36e-9282-6480ee0c4559",
+      "name": "HUM_MS_Rig_DFLT_CMBT_Skill_Throw_Medium_01_Attack",
+      "events": 10,
+      "canonical_sha256": "2177325723fad3de3ae945b78a02046513af0546e8a4949957f3f04a0f81d041",
+      "status": "PASS"
+    },
+    {
+      "id": "78532703-43aa-ac4c-04ab-af5ea22aea7a",
+      "name": "HUM_MS_Rig_DFLT_CMBT_Skill_Throw_Tiny_01_Attack",
+      "events": 4,
+      "canonical_sha256": "952309aeaa8e75c24a2bbf0cf5cf39c3ff6b34d3882bbf3d2c5e5e572c4713d7",
+      "status": "PASS"
+    },
+    {
+      "id": "c313b63b-946a-0f4c-66ed-2eb066d1a014",
+      "name": "HUM_MS_Rig_JAV_CMBT_Range_RHand_01_Attack",
+      "events": 7,
+      "canonical_sha256": "18859290ac27996ec612e76d390814f332dcdc39a89dc8c0761089c6a992eee8",
       "status": "PASS"
     }
   ],
-  "game_validation": "User confirmed polearm audio restored and piercing timing fixed in 0.1.3; other attack families not individually verified."
+  "game_validation": "User confirmed the revised mod worked in game; not every weapon, race or multiplayer combination was tested."
 }

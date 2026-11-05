@@ -1,6 +1,14 @@
 # Changelog
 
-English | [Português (Brasil)](CHANGELOG.pt-BR.md)
+English | [PortuguÃªs (Brasil)](CHANGELOG.pt-BR.md)
+
+## 1.2.0
+
+I restored missing BT4 attack vocalizations and expanded the animation coverage:
+
+- Polearm, staff and spear melee attacks, including selected shield and dual-wield attacks.
+- Spear throws, with and without a shield.
+- Shove and object throws in the game's Tiny and Medium size categories.
 
 ## 1.1.0
 

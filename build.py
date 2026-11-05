@@ -2,7 +2,7 @@
 import argparse,hashlib,json,pathlib,shutil,subprocess,zipfile,xml.etree.ElementTree as ET
 from verify import verify
 ROOT=pathlib.Path(__file__).parent
-VERSION='1.1.0'
+VERSION='1.2.0'
 RESOURCE=pathlib.Path('Public/WeaponSFXRepair/Content/[PAK]_WeaponSFXRepair/_merged')
 def run(*args):subprocess.run([str(x) for x in args],check=True)
 def main():
@@ -33,7 +33,7 @@ def main():
  resource=ET.parse(check/RESOURCE.with_suffix('.lsx')).getroot()
  digest=hashlib.sha256(json.dumps(canon(resource),ensure_ascii=True,separators=(',',':')).encode()).hexdigest()
  expected=json.loads((ROOT/'docs/validated-resource.json').read_text())['canonical_sha256']
- assert digest==expected,'Animation data differ from user-validated 0.1.3'
+ assert digest==expected,'Animation data differ from the gameplay-tested release baseline'
  archive=dist/f'PolearmSFXFix-{VERSION}.zip'
  with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:z.write(pak,'WeaponSFXRepair.pak')
  with zipfile.ZipFile(archive) as z:assert z.namelist()==['WeaponSFXRepair.pak'] and z.read('WeaponSFXRepair.pak')==pak.read_bytes()

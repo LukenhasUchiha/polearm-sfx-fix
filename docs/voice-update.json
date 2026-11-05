@@ -1,0 +1,346 @@
+{
+  "version": "1.2.0",
+  "runtime_tested": true,
+  "overridden_resources": 15,
+  "new_vocal_events": 12,
+  "new_whoosh_events": 5,
+  "preserved": "Every release 1.1.0 animation attribute/event, every original event in five extra resources; no Cast, React, damage, FX or animation-file changes.",
+  "changes": [
+    {
+      "id": "09861000-a123-f3ec-8346-4dae23405c8b",
+      "name": "HUM_MS_Rig_ST_CMBT_Melee_RHand_01_Attack",
+      "reference": "HUM_F_Rig_ST_CMBT_Melee_RHand_01_Attack",
+      "event": {
+        "ID": "Vocals_Combat",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.042448994",
+        "Track": "6"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "at existing user-validated BT4 Whoosh_Combat"
+    },
+    {
+      "id": "58494998-bf19-47bf-344b-93b718ca9c79",
+      "name": "HUM_MS_Rig_DWS_CMBT_Melee_RHand_01_Attack",
+      "reference": "HUM_F_Rig_DWS_CMBT_Melee_RHand_01_Attack",
+      "event": {
+        "ID": "Vocals_Combat",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.06639456",
+        "Track": "6"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "at existing user-validated BT4 Whoosh_Combat"
+    },
+    {
+      "id": "7fe6e2b1-8a75-de09-0d16-384723dbe9ce",
+      "name": "HUM_MS_Rig_SP_CMBT_Melee_RHand_01_Attack",
+      "reference": "HUM_F_Rig_SP_CMBT_Melee_RHand_01_Attack",
+      "event": {
+        "ID": "Vocals_Combat",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.14512473",
+        "Track": "6"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "at existing user-validated BT4 Whoosh_Combat"
+    },
+    {
+      "id": "809b1ab9-7c1f-80e6-065a-a63a4b5b6cb3",
+      "name": "HUM_MS_Rig_JAVSH_CMBT_Melee_RHand_01_Attack",
+      "reference": "HUM_F_Rig_JAVSH_CMBT_Melee_Rhand_01_Attack",
+      "event": {
+        "ID": "Vocals_Combat",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.077278934",
+        "Track": "7"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "at existing user-validated BT4 Whoosh_Combat"
+    },
+    {
+      "id": "9187d103-49e2-2f4b-b0c3-439faae326fa",
+      "name": "HUM_MS_Rig_POLE_CMBT_Melee_RHand_01_Attack",
+      "reference": "HUM_F_Rig_POLE_CMBT_Melee_Rhand_01_Attack",
+      "event": {
+        "ID": "Vocals_Combat",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.1378685",
+        "Track": "6"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "at existing user-validated BT4 Whoosh_Combat"
+    },
+    {
+      "id": "923c4262-b958-8999-8d4f-62980e602c0b",
+      "name": "HUM_MS_Rig_JAV_CMBT_Melee_RHand_01_Attack",
+      "reference": "HUM_F_Rig_JAV_CMBT_Melee_RHand_01_Attack",
+      "event": {
+        "ID": "Vocals_Combat",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.08117914",
+        "Track": "7"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "at existing user-validated BT4 Whoosh_Combat"
+    },
+    {
+      "id": "95db0644-c2ba-706c-4139-0f4340e0d4e8",
+      "name": "HUM_MS_Rig_1HPSH_CMBT_Melee_RHand_01_Attack",
+      "reference": "HUM_F_Rig_1HPSH_CMBT_Melee_RHand_01_Attack",
+      "event": {
+        "ID": "Vocal",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.07147392",
+        "Track": "6"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "at existing user-validated BT4 Whoosh_Combat"
+    },
+    {
+      "id": "c601085a-2ef3-c1a8-f023-4b9c09b43a15",
+      "name": "HUM_MS_Rig_DWP_CMBT_Melee_LHand_01_Attack",
+      "reference": "HUM_F_Rig_DWP_CMBT_Melee_LHand_01_Attack",
+      "event": {
+        "ID": "Vocals_Combat",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.104489796",
+        "Track": "6"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "at existing user-validated BT4 Whoosh_Combat"
+    },
+    {
+      "id": "d6f3b36d-aee0-d9b1-b116-29c3461a9a16",
+      "name": "HUM_MS_Rig_DWS_CMBT_Melee_LHand_01_Attack",
+      "reference": "HUM_F_Rig_DWS_CMBT_Melee_LHand_01_Attack",
+      "event": {
+        "ID": "Vocals_Combat",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.05587304",
+        "Track": "6"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "at existing user-validated BT4 Whoosh_Combat"
+    },
+    {
+      "id": "12611245-e158-1abb-b382-91e825e82285",
+      "name": "HUM_MS_Rig_JAVSH_CMBT_Range_RHand_01_Attack",
+      "reference": "HUM_F_Rig_JAVSH_CMBT_Range_RHand_01_Attack",
+      "event": {
+        "ID": "Vocals_Combat",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.233288",
+        "Track": "5"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "original BT4 Cast release; same policy as working BT4 2HS throw"
+    },
+    {
+      "id": "12611245-e158-1abb-b382-91e825e82285",
+      "name": "HUM_MS_Rig_JAVSH_CMBT_Range_RHand_01_Attack",
+      "reference": "HUM_F_Rig_JAVSH_CMBT_Range_RHand_01_Attack",
+      "event": {
+        "ID": "Whoosh_Throw",
+        "Length": "0.1",
+        "TextKeyType": "1",
+        "Time": "0.233288",
+        "Track": "6"
+      },
+      "properties": [
+        {
+          "Resource": "1920c04b-f081-431c-b44f-65e5fd5e4733",
+          "SoundObjectIndex": "1"
+        }
+      ],
+      "timing_policy": "original BT4 Cast release; same policy as working BT4 2HS throw"
+    },
+    {
+      "id": "35c30365-3c16-dc5e-ad76-386c3899a32e",
+      "name": "HUM_MS_Rig_DFLT_CMBT_Skill_Shove_01_Attack",
+      "reference": "HUM_F_Rig_DFLT_CMBT_Skill_Shove_01_Attack",
+      "event": {
+        "ID": "Whoosh_Combat",
+        "Length": "0.1",
+        "TextKeyType": "1",
+        "Time": "0.0163801728",
+        "Track": "2"
+      },
+      "properties": [
+        {
+          "Resource": "726624f9-f7e5-42ff-ccf7-061a84f6237d",
+          "SoundObjectIndex": "3"
+        }
+      ],
+      "timing_policy": "reference audio/Cast phase mapped to original BT4 Cast"
+    },
+    {
+      "id": "35c30365-3c16-dc5e-ad76-386c3899a32e",
+      "name": "HUM_MS_Rig_DFLT_CMBT_Skill_Shove_01_Attack",
+      "reference": "HUM_F_Rig_DFLT_CMBT_Skill_Shove_01_Attack",
+      "event": {
+        "ID": "Vocal_Attack",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.0538602175",
+        "Track": "3"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "reference audio/Cast phase mapped to original BT4 Cast"
+    },
+    {
+      "id": "36372476-b299-d36e-9282-6480ee0c4559",
+      "name": "HUM_MS_Rig_DFLT_CMBT_Skill_Throw_Medium_01_Attack",
+      "reference": "HUM_F_Rig_DFLT_CMBT_Skill_Throw_Medium_01_Attack",
+      "event": {
+        "ID": "Whoosh_Throw",
+        "Length": "0.1",
+        "TextKeyType": "1",
+        "Time": "0.522449",
+        "Track": "3"
+      },
+      "properties": [
+        {
+          "Resource": "1920c04b-f081-431c-b44f-65e5fd5e4733",
+          "SoundObjectIndex": "1"
+        }
+      ],
+      "timing_policy": "original BT4 Cast release; same policy as working BT4 2HS throw"
+    },
+    {
+      "id": "78532703-43aa-ac4c-04ab-af5ea22aea7a",
+      "name": "HUM_MS_Rig_DFLT_CMBT_Skill_Throw_Tiny_01_Attack",
+      "reference": "HUM_F_Rig_DFLT_CMBT_Skill_Throw_Tiny_01_Attack",
+      "event": {
+        "ID": "Whoosh_Throw",
+        "Length": "0.1",
+        "TextKeyType": "1",
+        "Time": "0.2619501",
+        "Track": "2"
+      },
+      "properties": [
+        {
+          "Resource": "1920c04b-f081-431c-b44f-65e5fd5e4733",
+          "SoundObjectIndex": "1"
+        }
+      ],
+      "timing_policy": "original BT4 Cast release; same policy as working BT4 2HS throw"
+    },
+    {
+      "id": "c313b63b-946a-0f4c-66ed-2eb066d1a014",
+      "name": "HUM_MS_Rig_JAV_CMBT_Range_RHand_01_Attack",
+      "reference": "HUM_F_Rig_JAV_CMBT_Range_RHand_01_Attack",
+      "event": {
+        "ID": "Vocal_Attack",
+        "Length": "0.1",
+        "TextKeyType": "13",
+        "Time": "0.20099777",
+        "Track": "3"
+      },
+      "properties": [
+        {
+          "EVocalType": "1",
+          "Resource": "",
+          "SoundObjectIndex": "4"
+        }
+      ],
+      "timing_policy": "original BT4 Cast release; same policy as working BT4 2HS throw"
+    },
+    {
+      "id": "c313b63b-946a-0f4c-66ed-2eb066d1a014",
+      "name": "HUM_MS_Rig_JAV_CMBT_Range_RHand_01_Attack",
+      "reference": "HUM_F_Rig_JAV_CMBT_Range_RHand_01_Attack",
+      "event": {
+        "ID": "Whoosh_Throw",
+        "Length": "0.1",
+        "TextKeyType": "1",
+        "Time": "0.20099777",
+        "Track": "4"
+      },
+      "properties": [
+        {
+          "Resource": "1920c04b-f081-431c-b44f-65e5fd5e4733",
+          "SoundObjectIndex": "1"
+        }
+      ],
+      "timing_policy": "original BT4 Cast release; same policy as working BT4 2HS throw"
+    }
+  ],
+  "runtime_validation_scope": "User confirmed the revised mod worked; not an exhaustive per-animation gameplay test."
+}
