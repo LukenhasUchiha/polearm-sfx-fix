@@ -1,0 +1,809 @@
+<?xml version='1.0' encoding='utf-8'?>
+<save>
+  <version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids,lsf_adjacency" />
+  <region id="AnimationBank">
+    <node id="AnimationBank">
+      <children>
+        <node id="Resource">
+          <attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+          <attribute id="AnchorHand" type="uint8" value="0" />
+          <attribute id="Duration" type="float" value="0.40000004" />
+          <attribute id="ID" type="FixedString" value="09861000-a123-f3ec-8346-4dae23405c8b" />
+          <attribute id="IsPoseBank" type="bool" value="False" />
+          <attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+          <attribute id="Looping" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="HUM_MS_Rig_ST_CMBT_Melee_RHand_01_Attack" />
+          <attribute id="Offset" type="float" value="0" />
+          <attribute id="PreviewVisualResource" type="FixedString" value="71fee16b-c8dc-71c2-7730-3120a3874edd" />
+          <attribute id="RightTransitionAnimation" type="FixedString" value="" />
+          <attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+          <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_ST_CMBT_Melee_RHand_01_Attack.GR2" />
+          <attribute id="SupportingLeg" type="uint8" value="0" />
+          <attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_ST_CMBT_Melee_RHand_01_Attack.Anim.0" />
+          <attribute id="TimeStep" type="float" value="0.016666668" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="React" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="15" />
+              <attribute id="Time" type="float" value="0" />
+              <attribute id="Track" type="uint8" value="2" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Whoosh_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="1" />
+              <attribute id="Time" type="float" value="0.042448994" />
+              <attribute id="Track" type="uint8" value="5" />
+              <children>
+                <node id="Properties">
+                  <attribute id="Resource" type="FixedString" value="726624f9-f7e5-42ff-ccf7-061a84f6237d" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="1" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Cast_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.06349207" />
+              <attribute id="Track" type="uint8" value="4" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Hit_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.105578244" />
+              <attribute id="Track" type="uint8" value="3" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Cast" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="8" />
+              <attribute id="Time" type="float" value="0.14149661" />
+              <attribute id="Track" type="uint8" value="1" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Resource">
+          <attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+          <attribute id="AnchorHand" type="uint8" value="0" />
+          <attribute id="Duration" type="float" value="0.53333336" />
+          <attribute id="ID" type="FixedString" value="58494998-bf19-47bf-344b-93b718ca9c79" />
+          <attribute id="IsPoseBank" type="bool" value="False" />
+          <attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+          <attribute id="Looping" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="HUM_MS_Rig_DWS_CMBT_Melee_RHand_01_Attack" />
+          <attribute id="Offset" type="float" value="0" />
+          <attribute id="PreviewVisualResource" type="FixedString" value="71fee16b-c8dc-71c2-7730-3120a3874edd" />
+          <attribute id="RightTransitionAnimation" type="FixedString" value="" />
+          <attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+          <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_DWS_CMBT_Melee_RHand_01_Attack.GR2" />
+          <attribute id="SupportingLeg" type="uint8" value="0" />
+          <attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_DWS_CMBT_Melee_RHand_01_Attack.Anim.0" />
+          <attribute id="TimeStep" type="float" value="0.016666668" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+          <children>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="React" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="15" />
+              <attribute id="Time" type="float" value="0.0007256236" />
+              <attribute id="Track" type="uint8" value="2" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Whoosh_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="1" />
+              <attribute id="Time" type="float" value="0.06639456" />
+              <attribute id="Track" type="uint8" value="5" />
+              <children>
+                <node id="Properties">
+                  <attribute id="Resource" type="FixedString" value="726624f9-f7e5-42ff-ccf7-061a84f6237d" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="1" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Slash_Cast_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.07328804" />
+              <attribute id="Track" type="uint8" value="0" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Slash_Hit_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.11609979" />
+              <attribute id="Track" type="uint8" value="4" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Cast" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="8" />
+              <attribute id="Time" type="float" value="0.12770976" />
+              <attribute id="Track" type="uint8" value="1" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Resource">
+          <attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+          <attribute id="AnchorHand" type="uint8" value="0" />
+          <attribute id="Duration" type="float" value="0.90000004" />
+          <attribute id="ID" type="FixedString" value="7fe6e2b1-8a75-de09-0d16-384723dbe9ce" />
+          <attribute id="IsPoseBank" type="bool" value="False" />
+          <attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+          <attribute id="Looping" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="HUM_MS_Rig_SP_CMBT_Melee_RHand_01_Attack" />
+          <attribute id="Offset" type="float" value="0" />
+          <attribute id="PreviewVisualResource" type="FixedString" value="71fee16b-c8dc-71c2-7730-3120a3874edd" />
+          <attribute id="RightTransitionAnimation" type="FixedString" value="" />
+          <attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+          <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_SP_CMBT_Melee_RHand_01_Attack.GR2" />
+          <attribute id="SupportingLeg" type="uint8" value="0" />
+          <attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_SP_CMBT_Melee_RHand_01_Attack.Anim.0" />
+          <attribute id="TimeStep" type="float" value="0.016666668" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="React" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="15" />
+              <attribute id="Time" type="float" value="0" />
+              <attribute id="Track" type="uint8" value="1" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Footstep_L" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="3" />
+              <attribute id="Time" type="float" value="0.05151927" />
+              <attribute id="Track" type="uint8" value="3" />
+              <children>
+                <node id="Properties">
+                  <attribute id="FootID" type="uint8" value="0" />
+                  <attribute id="PlayHearingFX" type="bool" value="True" />
+                  <attribute id="PlayScuff" type="bool" value="False" />
+                  <attribute id="PlaySlideFX" type="bool" value="False" />
+                  <attribute id="PlaySound" type="bool" value="True" />
+                  <attribute id="PlayStepFX" type="bool" value="True" />
+                  <attribute id="Slide" type="bool" value="False" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Cast_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.14512473" />
+              <attribute id="Track" type="uint8" value="0" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Whoosh_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="1" />
+              <attribute id="Time" type="float" value="0.14512473" />
+              <attribute id="Track" type="uint8" value="4" />
+              <children>
+                <node id="Properties">
+                  <attribute id="Resource" type="FixedString" value="726624f9-f7e5-42ff-ccf7-061a84f6237d" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="1" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="CastPierce" />
+              <attribute id="Length" type="float" value="0.2" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.14512473" />
+              <attribute id="Track" type="uint8" value="5" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Cast" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="8" />
+              <attribute id="Time" type="float" value="0.20027213" />
+              <attribute id="Track" type="uint8" value="2" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Hit_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.20027213" />
+              <attribute id="Track" type="uint8" value="1" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Footstep_L" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="3" />
+              <attribute id="Time" type="float" value="0.6443538" />
+              <attribute id="Track" type="uint8" value="2" />
+              <children>
+                <node id="Properties">
+                  <attribute id="FootID" type="uint8" value="0" />
+                  <attribute id="PlayHearingFX" type="bool" value="True" />
+                  <attribute id="PlayScuff" type="bool" value="False" />
+                  <attribute id="PlaySlideFX" type="bool" value="False" />
+                  <attribute id="PlaySound" type="bool" value="True" />
+                  <attribute id="PlayStepFX" type="bool" value="True" />
+                  <attribute id="Slide" type="bool" value="False" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Resource">
+          <attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+          <attribute id="AnchorHand" type="uint8" value="0" />
+          <attribute id="Duration" type="float" value="0.43333337" />
+          <attribute id="ID" type="FixedString" value="809b1ab9-7c1f-80e6-065a-a63a4b5b6cb3" />
+          <attribute id="IsPoseBank" type="bool" value="False" />
+          <attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+          <attribute id="Looping" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="HUM_MS_Rig_JAVSH_CMBT_Melee_RHand_01_Attack" />
+          <attribute id="Offset" type="float" value="0" />
+          <attribute id="PreviewVisualResource" type="FixedString" value="71fee16b-c8dc-71c2-7730-3120a3874edd" />
+          <attribute id="RightTransitionAnimation" type="FixedString" value="" />
+          <attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+          <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_JAVSH_CMBT_Melee_RHand_01_Attack.GR2" />
+          <attribute id="SupportingLeg" type="uint8" value="0" />
+          <attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_JAVSH_CMBT_Melee_RHand_01_Attack.Anim.0" />
+          <attribute id="TimeStep" type="float" value="0.016666668" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="React" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="15" />
+              <attribute id="Time" type="float" value="0.0003628118" />
+              <attribute id="Track" type="uint8" value="3" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Cast_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.077278934" />
+              <attribute id="Track" type="uint8" value="2" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Whoosh_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="1" />
+              <attribute id="Time" type="float" value="0.077278934" />
+              <attribute id="Track" type="uint8" value="5" />
+              <children>
+                <node id="Properties">
+                  <attribute id="Resource" type="FixedString" value="726624f9-f7e5-42ff-ccf7-061a84f6237d" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="1" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="CastPierce" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.077278934" />
+              <attribute id="Track" type="uint8" value="6" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Hit_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.105578244" />
+              <attribute id="Track" type="uint8" value="4" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Cast" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="8" />
+              <attribute id="Time" type="float" value="0.11682541" />
+              <attribute id="Track" type="uint8" value="1" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Resource">
+          <attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+          <attribute id="AnchorHand" type="uint8" value="0" />
+          <attribute id="Duration" type="float" value="0.40000004" />
+          <attribute id="ID" type="FixedString" value="9187d103-49e2-2f4b-b0c3-439faae326fa" />
+          <attribute id="IsPoseBank" type="bool" value="False" />
+          <attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+          <attribute id="Looping" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="HUM_MS_Rig_POLE_CMBT_Melee_RHand_01_Attack" />
+          <attribute id="Offset" type="float" value="0" />
+          <attribute id="PreviewVisualResource" type="FixedString" value="71fee16b-c8dc-71c2-7730-3120a3874edd" />
+          <attribute id="RightTransitionAnimation" type="FixedString" value="" />
+          <attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+          <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_POLE_CMBT_Melee_RHand_01_Attack.GR2" />
+          <attribute id="SupportingLeg" type="uint8" value="0" />
+          <attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_POLE_CMBT_Melee_RHand_01_Attack.Anim.0" />
+          <attribute id="TimeStep" type="float" value="0.016666668" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+          <children>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="React" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="15" />
+              <attribute id="Time" type="float" value="0" />
+              <attribute id="Track" type="uint8" value="1" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Slash_Cast_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.1226304" />
+              <attribute id="Track" type="uint8" value="0" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Whoosh_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="1" />
+              <attribute id="Time" type="float" value="0.13786849" />
+              <attribute id="Track" type="uint8" value="5" />
+              <children>
+                <node id="Properties">
+                  <attribute id="Resource" type="FixedString" value="726624f9-f7e5-42ff-ccf7-061a84f6237d" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="1" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Slash_Hit_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.16435376" />
+              <attribute id="Track" type="uint8" value="1" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Cast" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="8" />
+              <attribute id="Time" type="float" value="0.18394558" />
+              <attribute id="Track" type="uint8" value="2" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Footstep_L" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="3" />
+              <attribute id="Time" type="float" value="0.1875737" />
+              <attribute id="Track" type="uint8" value="4" />
+              <children>
+                <node id="Properties">
+                  <attribute id="FootID" type="uint8" value="0" />
+                  <attribute id="PlayHearingFX" type="bool" value="True" />
+                  <attribute id="PlayScuff" type="bool" value="False" />
+                  <attribute id="PlaySlideFX" type="bool" value="False" />
+                  <attribute id="PlaySound" type="bool" value="True" />
+                  <attribute id="PlayStepFX" type="bool" value="True" />
+                  <attribute id="Slide" type="bool" value="False" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Resource">
+          <attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+          <attribute id="AnchorHand" type="uint8" value="0" />
+          <attribute id="Duration" type="float" value="0.43333337" />
+          <attribute id="ID" type="FixedString" value="923c4262-b958-8999-8d4f-62980e602c0b" />
+          <attribute id="IsPoseBank" type="bool" value="False" />
+          <attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+          <attribute id="Looping" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="HUM_MS_Rig_JAV_CMBT_Melee_RHand_01_Attack" />
+          <attribute id="Offset" type="float" value="0" />
+          <attribute id="PreviewVisualResource" type="FixedString" value="71fee16b-c8dc-71c2-7730-3120a3874edd" />
+          <attribute id="RightTransitionAnimation" type="FixedString" value="" />
+          <attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+          <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_JAV_CMBT_Melee_RHand_01_Attack.GR2" />
+          <attribute id="SupportingLeg" type="uint8" value="0" />
+          <attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_JAV_CMBT_Melee_RHand_01_Attack.Anim.0" />
+          <attribute id="TimeStep" type="float" value="0.016666668" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="React" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="15" />
+              <attribute id="Time" type="float" value="0" />
+              <attribute id="Track" type="uint8" value="1" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="FootStep_R" />
+              <attribute id="Length" type="float" value="0.36666667" />
+              <attribute id="TextKeyType" type="uint8" value="3" />
+              <attribute id="Time" type="float" value="0.06666667" />
+              <attribute id="Track" type="uint8" value="0" />
+              <children>
+                <node id="Properties">
+                  <attribute id="FootID" type="uint8" value="1" />
+                  <attribute id="PlayHearingFX" type="bool" value="True" />
+                  <attribute id="PlayScuff" type="bool" value="False" />
+                  <attribute id="PlaySlideFX" type="bool" value="False" />
+                  <attribute id="PlaySound" type="bool" value="True" />
+                  <attribute id="PlayStepFX" type="bool" value="True" />
+                  <attribute id="Slide" type="bool" value="False" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Cast_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.08117914" />
+              <attribute id="Track" type="uint8" value="4" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Whoosh_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="1" />
+              <attribute id="Time" type="float" value="0.08117914" />
+              <attribute id="Track" type="uint8" value="5" />
+              <children>
+                <node id="Properties">
+                  <attribute id="Resource" type="FixedString" value="726624f9-f7e5-42ff-ccf7-061a84f6237d" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="1" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="CastPierce" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.08117914" />
+              <attribute id="Track" type="uint8" value="6" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Hit_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.10557823" />
+              <attribute id="Track" type="uint8" value="3" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Cast" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="8" />
+              <attribute id="Time" type="float" value="0.11755103" />
+              <attribute id="Track" type="uint8" value="2" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Resource">
+          <attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+          <attribute id="AnchorHand" type="uint8" value="0" />
+          <attribute id="Duration" type="float" value="0.5666667" />
+          <attribute id="ID" type="FixedString" value="95db0644-c2ba-706c-4139-0f4340e0d4e8" />
+          <attribute id="IsPoseBank" type="bool" value="False" />
+          <attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+          <attribute id="Looping" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="HUM_MS_Rig_1HPSH_CMBT_Melee_RHand_01_Attack" />
+          <attribute id="Offset" type="float" value="0" />
+          <attribute id="PreviewVisualResource" type="FixedString" value="71fee16b-c8dc-71c2-7730-3120a3874edd" />
+          <attribute id="RightTransitionAnimation" type="FixedString" value="" />
+          <attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+          <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_1HPSH_CMBT_Melee_RHand_01_Attack.GR2" />
+          <attribute id="SupportingLeg" type="uint8" value="0" />
+          <attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_1HPSH_CMBT_Melee_RHand_01_Attack.Anim.0" />
+          <attribute id="TimeStep" type="float" value="0.016666668" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+          <children>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="React" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="15" />
+              <attribute id="Time" type="float" value="0" />
+              <attribute id="Track" type="uint8" value="2" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Cast_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.063129246" />
+              <attribute id="Track" type="uint8" value="3" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Whoosh_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="1" />
+              <attribute id="Time" type="float" value="0.07147392" />
+              <attribute id="Track" type="uint8" value="5" />
+              <children>
+                <node id="Properties">
+                  <attribute id="Resource" type="FixedString" value="726624f9-f7e5-42ff-ccf7-061a84f6237d" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="1" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Hit_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.092879824" />
+              <attribute id="Track" type="uint8" value="4" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Cast" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="8" />
+              <attribute id="Time" type="float" value="0.10412699" />
+              <attribute id="Track" type="uint8" value="1" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Resource">
+          <attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+          <attribute id="AnchorHand" type="uint8" value="0" />
+          <attribute id="Duration" type="float" value="0.5" />
+          <attribute id="ID" type="FixedString" value="c601085a-2ef3-c1a8-f023-4b9c09b43a15" />
+          <attribute id="IsPoseBank" type="bool" value="False" />
+          <attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+          <attribute id="Looping" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="HUM_MS_Rig_DWP_CMBT_Melee_LHand_01_Attack" />
+          <attribute id="Offset" type="float" value="0" />
+          <attribute id="PreviewVisualResource" type="FixedString" value="71fee16b-c8dc-71c2-7730-3120a3874edd" />
+          <attribute id="RightTransitionAnimation" type="FixedString" value="" />
+          <attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+          <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_DWP_CMBT_Melee_LHand_01_Attack.GR2" />
+          <attribute id="SupportingLeg" type="uint8" value="0" />
+          <attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_DWP_CMBT_Melee_LHand_01_Attack.Anim.0" />
+          <attribute id="TimeStep" type="float" value="0.016666668" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="React" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="15" />
+              <attribute id="Time" type="float" value="0" />
+              <attribute id="Track" type="uint8" value="2" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Cast_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.06893428" />
+              <attribute id="Track" type="uint8" value="4" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Whoosh_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="1" />
+              <attribute id="Time" type="float" value="0.104489795" />
+              <attribute id="Track" type="uint8" value="5" />
+              <children>
+                <node id="Properties">
+                  <attribute id="Resource" type="FixedString" value="726624f9-f7e5-42ff-ccf7-061a84f6237d" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="2" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Pierce_Hit_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.10521543" />
+              <attribute id="Track" type="uint8" value="3" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="CastOffhand" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="8" />
+              <attribute id="Time" type="float" value="0.12190476" />
+              <attribute id="Track" type="uint8" value="1" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Resource">
+          <attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+          <attribute id="AnchorHand" type="uint8" value="0" />
+          <attribute id="Duration" type="float" value="0.5666667" />
+          <attribute id="ID" type="FixedString" value="d6f3b36d-aee0-d9b1-b116-29c3461a9a16" />
+          <attribute id="IsPoseBank" type="bool" value="False" />
+          <attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+          <attribute id="Looping" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="HUM_MS_Rig_DWS_CMBT_Melee_LHand_01_Attack" />
+          <attribute id="Offset" type="float" value="0" />
+          <attribute id="PreviewVisualResource" type="FixedString" value="71fee16b-c8dc-71c2-7730-3120a3874edd" />
+          <attribute id="RightTransitionAnimation" type="FixedString" value="" />
+          <attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+          <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_DWS_CMBT_Melee_LHand_01_Attack.GR2" />
+          <attribute id="SupportingLeg" type="uint8" value="0" />
+          <attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_DWS_CMBT_Melee_LHand_01_Attack.Anim.0" />
+          <attribute id="TimeStep" type="float" value="0.016666668" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="React" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="15" />
+              <attribute id="Time" type="float" value="0" />
+              <attribute id="Track" type="uint8" value="1" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Slash_Cast_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.037732434" />
+              <attribute id="Track" type="uint8" value="3" />
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Whoosh_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="1" />
+              <attribute id="Time" type="float" value="0.05587304" />
+              <attribute id="Track" type="uint8" value="5" />
+              <children>
+                <node id="Properties">
+                  <attribute id="Resource" type="FixedString" value="726624f9-f7e5-42ff-ccf7-061a84f6237d" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="2" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="FootStep_R" />
+              <attribute id="Length" type="float" value="0.5" />
+              <attribute id="TextKeyType" type="uint8" value="3" />
+              <attribute id="Time" type="float" value="0.06666667" />
+              <attribute id="Track" type="uint8" value="0" />
+              <children>
+                <node id="Properties">
+                  <attribute id="FootID" type="uint8" value="1" />
+                  <attribute id="PlayHearingFX" type="bool" value="True" />
+                  <attribute id="PlayScuff" type="bool" value="False" />
+                  <attribute id="PlaySlideFX" type="bool" value="False" />
+                  <attribute id="PlaySound" type="bool" value="True" />
+                  <attribute id="PlayStepFX" type="bool" value="True" />
+                  <attribute id="Slide" type="bool" value="False" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="CastOffhand" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="8" />
+              <attribute id="Time" type="float" value="0.07473925" />
+              <attribute id="Track" type="uint8" value="2" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="VFX_Slash_Hit_01" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="0" />
+              <attribute id="Time" type="float" value="0.11102046" />
+              <attribute id="Track" type="uint8" value="4" />
+            </node>
+          </children>
+        </node>
+        <node id="Resource">
+          <attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+          <attribute id="AnchorHand" type="uint8" value="0" />
+          <attribute id="Duration" type="float" value="0.53333336" />
+          <attribute id="ID" type="FixedString" value="4ef25707-a8c6-39d8-09d8-973141397d0e" />
+          <attribute id="IsPoseBank" type="bool" value="False" />
+          <attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+          <attribute id="Looping" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="HUM_MS_Rig_POLE_CMBT_Reach_RHand_01_Attack" />
+          <attribute id="Offset" type="float" value="0" />
+          <attribute id="PreviewVisualResource" type="FixedString" value="71fee16b-c8dc-71c2-7730-3120a3874edd" />
+          <attribute id="RightTransitionAnimation" type="FixedString" value="" />
+          <attribute id="SkeletonResource" type="FixedString" value="e7b96b01-af9c-835b-e6b5-f1a75f7b538b" />
+          <attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_POLE_CMBT_Reach_RHand_01_Attack.GR2" />
+          <attribute id="SupportingLeg" type="uint8" value="0" />
+          <attribute id="Template" type="FixedString" value="Public/Shared/Assets/Characters/_Anims/Humans/_MaleStrong/HUM_MS_Rig/HUM_MS_Rig_POLE_CMBT_Reach_RHand_01_Attack.Anim.0" />
+          <attribute id="TimeStep" type="float" value="0.016666668" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+          <children>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="FootStep_L" />
+              <attribute id="Length" type="float" value="0.5" />
+              <attribute id="TextKeyType" type="uint8" value="3" />
+              <attribute id="Time" type="float" value="0.033333335" />
+              <attribute id="Track" type="uint8" value="0" />
+              <children>
+                <node id="Properties">
+                  <attribute id="FootID" type="uint8" value="0" />
+                  <attribute id="PlayHearingFX" type="bool" value="True" />
+                  <attribute id="PlayScuff" type="bool" value="False" />
+                  <attribute id="PlaySlideFX" type="bool" value="False" />
+                  <attribute id="PlaySound" type="bool" value="True" />
+                  <attribute id="PlayStepFX" type="bool" value="True" />
+                  <attribute id="Slide" type="bool" value="False" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Vocals_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="13" />
+              <attribute id="Time" type="float" value="0.06712019" />
+              <attribute id="Track" type="uint8" value="1" />
+              <children>
+                <node id="Properties">
+                  <attribute id="EVocalType" type="uint8" value="1" />
+                  <attribute id="Resource" type="FixedString" value="" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="4" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Whoosh_Combat" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="1" />
+              <attribute id="Time" type="float" value="0.07800454" />
+              <attribute id="Track" type="uint8" value="3" />
+              <children>
+                <node id="Properties">
+                  <attribute id="Resource" type="FixedString" value="726624f9-f7e5-42ff-ccf7-061a84f6237d" />
+                  <attribute id="SoundObjectIndex" type="uint8" value="1" />
+                </node>
+              </children>
+            </node>
+            <node id="Events">
+              <attribute id="ID" type="FixedString" value="Cast" />
+              <attribute id="Length" type="float" value="0.1" />
+              <attribute id="TextKeyType" type="uint8" value="8" />
+              <attribute id="Time" type="float" value="0.12371881" />
+              <attribute id="Track" type="uint8" value="0" />
+              <children>
+                <node id="Properties" />
+              </children>
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

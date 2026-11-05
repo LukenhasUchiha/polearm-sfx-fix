@@ -1,0 +1,15 @@
+{
+  "changed": [
+    "HUM_MS_Rig_ST_CMBT_Melee_RHand_01_Attack",
+    "HUM_MS_Rig_DWS_CMBT_Melee_RHand_01_Attack",
+    "HUM_MS_Rig_SP_CMBT_Melee_RHand_01_Attack",
+    "HUM_MS_Rig_JAVSH_CMBT_Melee_RHand_01_Attack",
+    "HUM_MS_Rig_POLE_CMBT_Melee_RHand_01_Attack",
+    "HUM_MS_Rig_JAV_CMBT_Melee_RHand_01_Attack",
+    "HUM_MS_Rig_1HPSH_CMBT_Melee_RHand_01_Attack",
+    "HUM_MS_Rig_DWP_CMBT_Melee_LHand_01_Attack",
+    "HUM_MS_Rig_DWS_CMBT_Melee_LHand_01_Attack"
+  ],
+  "scope": "Stable chronological sort only; all existing events, timestamps, attributes, resources and damage markers preserved.",
+  "runtime_status": "In-game synchronization validated by project author; final Vortex installation also confirmed."
+}

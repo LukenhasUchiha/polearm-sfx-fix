@@ -1,0 +1,72 @@
+{
+  "checks": [
+    "All original animation attributes preserved",
+    "All original events preserved except documented Reach hand index",
+    "Exactly nine Whoosh additions and three CastPierce markers",
+    "Chronological order, time bounds, sound IDs and hand indices verified",
+    "No damage/Cast/React timing edits"
+  ],
+  "resources": [
+    {
+      "id": "09861000-a123-f3ec-8346-4dae23405c8b",
+      "name": "HUM_MS_Rig_ST_CMBT_Melee_RHand_01_Attack",
+      "events": 5,
+      "status": "PASS"
+    },
+    {
+      "id": "58494998-bf19-47bf-344b-93b718ca9c79",
+      "name": "HUM_MS_Rig_DWS_CMBT_Melee_RHand_01_Attack",
+      "events": 5,
+      "status": "PASS"
+    },
+    {
+      "id": "7fe6e2b1-8a75-de09-0d16-384723dbe9ce",
+      "name": "HUM_MS_Rig_SP_CMBT_Melee_RHand_01_Attack",
+      "events": 8,
+      "status": "PASS"
+    },
+    {
+      "id": "809b1ab9-7c1f-80e6-065a-a63a4b5b6cb3",
+      "name": "HUM_MS_Rig_JAVSH_CMBT_Melee_RHand_01_Attack",
+      "events": 6,
+      "status": "PASS"
+    },
+    {
+      "id": "9187d103-49e2-2f4b-b0c3-439faae326fa",
+      "name": "HUM_MS_Rig_POLE_CMBT_Melee_RHand_01_Attack",
+      "events": 6,
+      "status": "PASS"
+    },
+    {
+      "id": "923c4262-b958-8999-8d4f-62980e602c0b",
+      "name": "HUM_MS_Rig_JAV_CMBT_Melee_RHand_01_Attack",
+      "events": 7,
+      "status": "PASS"
+    },
+    {
+      "id": "95db0644-c2ba-706c-4139-0f4340e0d4e8",
+      "name": "HUM_MS_Rig_1HPSH_CMBT_Melee_RHand_01_Attack",
+      "events": 5,
+      "status": "PASS"
+    },
+    {
+      "id": "c601085a-2ef3-c1a8-f023-4b9c09b43a15",
+      "name": "HUM_MS_Rig_DWP_CMBT_Melee_LHand_01_Attack",
+      "events": 5,
+      "status": "PASS"
+    },
+    {
+      "id": "d6f3b36d-aee0-d9b1-b116-29c3461a9a16",
+      "name": "HUM_MS_Rig_DWS_CMBT_Melee_LHand_01_Attack",
+      "events": 6,
+      "status": "PASS"
+    },
+    {
+      "id": "4ef25707-a8c6-39d8-09d8-973141397d0e",
+      "name": "HUM_MS_Rig_POLE_CMBT_Reach_RHand_01_Attack",
+      "events": 4,
+      "status": "PASS"
+    }
+  ],
+  "game_validation": "User confirmed polearm audio restored and piercing timing fixed in 0.1.3; other attack families not individually verified."
+}
